@@ -1,0 +1,76 @@
+/*Yumi&Gtn Project 2022 RPG game*/
+/************/
+/***ASSETS***/
+/***********/
+
+:root {
+    /* colors */
+    --black: #000;
+    --white: #FFF;
+    --grey: #C2C2C2;
+    --terracota: #d3824d;
+
+}
+
+/************/
+/***MAIN***/
+/***********/
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container {
+    /* display */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.board {
+    /* box model */
+    border: 1px ridge var(--grey);
+}
+
+.row{
+    /* display */
+    display: flex;
+    height: 70px;
+    color: var(--black);
+}
+
+.cell{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--black);
+    background-color: var(--terracota);
+    width: 70px;
+    height: 70px;
+    /* box model */
+    border: 1px solid var(--black);
+}
+
+
+.players {
+    display: flex;
+    padding: 3em;
+}
+
+.player1 {
+    width: 50px;
+    height: 50px;
+}
+
+.player2 {
+    width: 50px;
+    height: 50px;
+}
+
+.treasure {
+    width: 50px;
+    height: 50px;
+}
